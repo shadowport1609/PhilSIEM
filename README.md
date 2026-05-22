@@ -27,4 +27,34 @@ from Jarrow, North East England.
 - Brute force, SYN flood, port scan detection
 
 ## Architecture
+-  Logs → PhilSIEM Collector → SQLite → Detection Engine
+↓
+Elasticsearch → Kibana
+↓
+Telegram Alerts
+↓
+iPhone 📱
+
+
+## Detection Rules
+| Rule | Trigger | Severity |
+|------|---------|----------|
+| BRUTE_FORCE | 3+ failed passwords in 10 mins | CRITICAL |
+| SYN_FLOOD | SYN flood detected | CRITICAL |
+| PORT_SCAN | Port scan activity | HIGH |
+| AUTH_FAILURE | Authentication failure | HIGH |
+| SUDO_FAILURE | Sudo failure detected | HIGH |
+
+## Results
+- 9,000+ LinkedIn impressions when published
+- Featured by cybersecurity professionals as industry-standard approach
+- Validated as sellable product by multiple security experts
+
+## Author
+Philip O'Malley | Breaking Into Cyber 🛡️
+philsiem.com | LinkedIn: Philip John Omalley
+CompTIA Security+ | CREST CPSA
+
+*Breaking Into Cyber — so the hackers can't.*
+
 
