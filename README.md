@@ -50,6 +50,18 @@ iPhone 📱
 - Featured by cybersecurity professionals as industry-standard approach
 - Validated as sellable product by multiple security experts
 
+- ## Screenshots
+
+### Kibana Dashboard
+![Kibana](screenshots/kibana.png)
+
+### Telegram Alerts
+![Telegram](screenshots/telegram.png)
+
+### Live Event Stream
+![Terminal](screenshots/terminal.png)
+
+
 ## Author
 Philip O'Malley | Breaking Into Cyber 🛡️
 philsiem.com | LinkedIn: Philip John Omalley
